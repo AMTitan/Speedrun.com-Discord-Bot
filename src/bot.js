@@ -1,6 +1,7 @@
 const request = require("request");
 require("dotenv").config();
 const {Client} = require("discord.js");
+const client = new Client();
 const Prefix = "SR!";
 
 client.on('ready', () => {
